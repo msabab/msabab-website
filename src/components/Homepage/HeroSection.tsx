@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="space-y-2 lg:col-span-2">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Hi, I&apos;m Jane Doe
+              Hi, I&apos;m Mo Sabab
             </h1>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I&apos;m a web developer based in New York. I love creating
