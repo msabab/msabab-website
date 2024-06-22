@@ -16,11 +16,11 @@ const HeroSection = () => {
         <div className="space-y-2 lg:col-span-2">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Hi, I'm Jane Doe
+              Hi, I&apos;m Jane Doe
             </h1>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              I'm a web developer based in New York. I love creating beautiful
-              and functional websites.
+              I&apos;m a web developer based in New York. I love creating
+              beautiful and functional websites.
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">

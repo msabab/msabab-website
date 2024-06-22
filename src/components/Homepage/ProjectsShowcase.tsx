@@ -20,7 +20,7 @@ const ProjectsShowcase = () => {
                 <h3 className="text-xl font-bold">Project Title Goes Here</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Description of the project goes here. It can be a bit longer
-                  to showcase the project's features and highlights.
+                  to showcase the project&apos;s features and highlights.
                 </p>
               </div>
             </CardContent>
@@ -31,7 +31,7 @@ const ProjectsShowcase = () => {
                 <h3 className="text-xl font-bold">Project Title Goes Here</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Description of the project goes here. It can be a bit longer
-                  to showcase the project's features and highlights.
+                  to showcase the project&apos;s features and highlights.
                 </p>
               </div>
             </CardContent>
@@ -42,7 +42,7 @@ const ProjectsShowcase = () => {
                 <h3 className="text-xl font-bold">Project Title Goes Here</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Description of the project goes here. It can be a bit longer
-                  to showcase the project's features and highlights.
+                  to showcase the project&apos;s features and highlights.
                 </p>
               </div>
             </CardContent>
