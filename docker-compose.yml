@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  msabab-website-service:
+    ports:
+      - 3750:3750
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
