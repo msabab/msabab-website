@@ -6,12 +6,14 @@ import Header from "@/components/Layouts/Header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <>
       <Header />
-      <HeroSection />
-      <BlogShowcase />
-      <ProjectsShowcase />
-      <Footer />
-    </main>
+      <main className="flex flex-col">
+        <HeroSection />
+        <BlogShowcase />
+        <ProjectsShowcase />
+        <Footer />
+      </main>
+    </>
   );
 }
