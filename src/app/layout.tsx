@@ -1,9 +1,10 @@
+import { ThemeProvider } from "@/components/Providers/theme-provider";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Dosis } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const dosis = Dosis({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mo's Blog",
@@ -19,11 +20,18 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background antialiased",
-          inter.className
+          "body min-h-screen bg-background antialiased",
+          dosis.className,
         )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

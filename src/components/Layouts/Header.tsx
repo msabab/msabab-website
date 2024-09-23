@@ -2,30 +2,23 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="px-4 lg:px-6 py-4 lg:py-8 flex justify-between items-center gap-2">
+    <header className="flex items-center justify-between gap-2 px-4 py-4 lg:px-6 lg:py-8">
       <Link className="flex items-center gap-2" href="/">
         <span className="font-semibold">Mo</span>
       </Link>
 
       <nav className="flex gap-2 lg:gap-4">
         <Link
-          className="text-sm font-medium hover:underline underline-offset-4"
+          className="text-sm font-medium underline-offset-4 hover:underline"
           href="/blog"
         >
           Blog
         </Link>
         <Link
-          className="text-sm font-medium hover:underline underline-offset-4"
+          className="text-sm font-medium underline-offset-4 hover:underline"
           href="/portfolio"
         >
           Portfolio
-        </Link>
-
-        <Link
-          className="text-sm font-medium hover:underline underline-offset-4"
-          href="/contact"
-        >
-          Contact
         </Link>
       </nav>
     </header>
